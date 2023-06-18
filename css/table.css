@@ -1,0 +1,85 @@
+body {
+    margin: 0;
+    background: #F4F1F8;
+  }
+  table {
+    border-collapse: collapse; 
+    line-height: 1.1;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    background:  radial-gradient(farthest-corner at 50% 50%, white, #DCECF8);
+    color: #0C213B;
+  }
+  caption {
+    font-family: annabelle, cursive;
+    font-weight: bold;
+    font-size: 2em;
+    padding: 10px; 
+    color: #F3CD26;
+    text-shadow: 1px 1px 0 rgba(0,0,0,.3);
+   }
+  caption:before, caption:after {
+    color: #A9E2CC;
+    margin: 0 10px;
+  }
+  th {
+    padding: 10px; 
+    border: 1px solid #A9E2CC;
+  }
+  td {
+    font-size: 0.8em;
+    padding: 5px 7px;
+    border: 1px solid #A9E2CC;
+  }
+  .first {
+    font-size: 1em;
+    font-weight: bold;
+    text-align: center;
+  }
+  .custom-btn {
+    width: 220px;
+    height: 60px;
+    color: #000000;
+    border-radius: 5px;
+    padding: 10px 25px;
+    font-family: 'Marck Script', cursive;
+    font-weight: 500;
+    background: transparent;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+     box-shadow:inset 2px 2px 2px 0px rgba(255,255,255,.5),
+     7px 7px 20px 0px rgba(0,0,0,.1),
+     4px 4px 5px 0px rgba(0,0,0,.1);
+    outline: none;
+  }
+  .btn-15 {
+    background: #ffbc13;
+    border: none;
+    z-index: 1;
+  }
+  .btn-15:after {
+    position: absolute;
+    content: "";
+    width: 0;
+    height: 100%;
+    top: 0;
+    right: 0;
+    z-index: -1;
+    background-color: #663dff;
+    border-radius: 5px;
+     box-shadow:inset 2px 2px 2px 0px rgba(255,255,255,.5),
+     7px 7px 20px 0px rgba(0,0,0,.1),
+     4px 4px 5px 0px rgba(0,0,0,.1);
+    transition: all 0.3s ease;
+  }
+  .btn-15:hover {
+    color: #fff;
+  }
+  .btn-15:hover:after {
+    left: 0;
+    width: 100%;
+  }
+  .btn-15:active {
+    top: 2px;
+  }
